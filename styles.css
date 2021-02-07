@@ -164,7 +164,7 @@ a{
     
 }
 body {
-    background-image: url('img/backgroundImg.png');
+    background-image: url('img/backgroundImg.jpg');
     background-repeat: repeat;
     
     background-size:120vh ;
@@ -213,6 +213,11 @@ body {
     padding: 17.8vh 0;
 }
 @media only screen and (max-width: 600px) {
+   .navv a{
+    display:block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
     .container{
        
     width: 100vw;
